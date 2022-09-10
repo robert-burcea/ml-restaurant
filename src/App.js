@@ -11,8 +11,8 @@ function App() {
   const [ready, setReady] = useState(false);
 
   const ml = () => {
-    const a = x.split(',').map((item) => { return parseInt(item) });
-    const b = y.split(',').map((item) => { return parseInt(item) });
+    const a = x.split(' ').map((item) => { return parseInt(item) });
+    const b = y.split(' ').map((item) => { return parseInt(item) });
     const numberToCheck = parseInt(z);
     console.log(a,b)
     const regression = new SimpleLinearRegression(a, b);
