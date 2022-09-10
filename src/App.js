@@ -1,10 +1,20 @@
 import React from 'react'
+import GetData from './GetData';
+import SimpleRegression from './SimpleRegression'
+import {useData, useSetData} from './DataContext'
+
+const DataContext = React.createContext({x:[], y:[]});
 
 function App() {
   return (
-    <div className="max-w-[1240px] bg-gray-400 h-full border border-stone-500">
-      <p>HELLO</p>
+    <DataContext.Provider value={{x:[], y:[]}}>
+
+    <div className="mx-auto max-w-[1040px] bg-gray-400 h-screen border border-stone-500 text-center">
+      <SimpleRegression />
+      <GetData />
     </div>
+
+    </DataContext.Provider>
   );
 }
 
