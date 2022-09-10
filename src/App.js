@@ -19,6 +19,7 @@ function App() {
     const json = regression.toJSON();
     console.log(json)
     const loaded = SimpleLinearRegression.load(json);
+    localStorage.setItem('loadedDishes',loaded)
     console.log('loaded', loaded)
     console.log(Math.floor(loaded.predict(numberToCheck)))
     setResult(Math.floor(loaded.predict(numberToCheck)))
