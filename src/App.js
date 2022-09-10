@@ -74,9 +74,9 @@ function App() {
         </div>
 
         <div className="max-w-[840px] border rounded shadow-xl m-3 bg-[#CDE7BE]">
-          <div className="mx-auto text-xl flex flex-col sm:flex-row justify-center items-center p-2"><p>Astazi vor fi cumparate </p>{ready? <p className="text-3xl p-2 font-bold text-[#2E5EAA]">~{result.dishes}</p> : 
+          <div className="mx-auto text-xl flex flex-col sm:flex-row justify-center items-center p-2"><p>Vor fi cumparate </p>{ready? <p className="text-3xl p-2 font-bold text-[#2E5EAA]">~{result.dishes}</p> : 
           <div className="text-sm text-slate-600">...awaiting...</div>} <p>portii de fel principal</p></div>
-          <div className="mx-auto text-xl flex flex-col sm:flex-row justify-center items-center p-2"><p>Incasarile de azi vor fi de </p>{ready? <p className="text-3xl p-2 font-bold text-[#2E5EAA]">~{result.cash}</p> : 
+          <div className="mx-auto text-xl flex flex-col sm:flex-row justify-center items-center p-2"><p>Incasarile vor fi de </p>{ready? <p className="text-3xl p-2 font-bold text-[#2E5EAA]">~{result.cash}</p> : 
           <div className="text-sm text-slate-600">...awaiting...</div>} <p>RON fara TVA</p></div>
       </div>
         
