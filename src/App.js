@@ -133,38 +133,38 @@ function App() {
          </tr>
          </thead>
          <tbody>
-          <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 hover:bg-green-100">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white hover:text-gray-700">Incasari</th>
+          <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Incasari</th>
             <th className="text-green-700 text-xl">{ready ? result.cash : <p>awaiting</p>}</th>
             <th>RON</th>
           </tr>
-          <tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-green-100">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white hover:text-gray-700">Fel Principal</th>
+          <tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Fel Principal</th>
             <th className="text-green-700 text-xl">{ready ? result.dishes : <p>awaiting</p>}</th>
             <th>portii</th>
           </tr>
-          <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 hover:bg-green-100">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white hover:text-gray-700">Supe/Ciorbe</th>
+          <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Supe/Ciorbe</th>
             <th className="text-green-700 text-xl">{ready ? result.soup : <p>awaiting</p>}</th>
             <th>portii</th>
           </tr>
-          <tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-green-100">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white hover:text-gray-700">Garnituri</th>
+          <tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700 ">
+            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Garnituri</th>
             <th className="text-green-700 text-xl">{ready ? result.garnish : <p>awaiting</p>}</th>
             <th>portii</th>
           </tr>
-          <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 hover:bg-green-100">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white hover:text-gray-700">Salate</th>
+          <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Salate</th>
             <th className="text-green-700 text-xl">{ready ? result.salad : <p>awaiting</p>}</th>
             <th>portii</th>
           </tr>
-          <tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-green-100">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white hover:text-gray-700">Desert</th>
+          <tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
+            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Desert</th>
             <th className="text-green-700 text-xl">{ready ? result.desert : <p>awaiting</p>}</th>
             <th>portii</th>
           </tr>
-          <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700 hover:bg-green-100">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white hover:text-gray-700">Chifle</th>
+          <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Chifle</th>
             <th className="text-green-700 text-xl">{ready ? result.bread : <p>awaiting</p>}</th>
             <th>bucati</th>
           </tr>
