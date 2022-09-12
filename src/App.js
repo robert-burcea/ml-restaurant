@@ -134,37 +134,37 @@ function App() {
          </thead>
          <tbody>
           <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Incasari</th>
+            <th scope="row" className="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-gray-900">Incasari</th>
             <th className="text-green-700 text-xl">{ready ? result.cash : <p>awaiting</p>}</th>
             <th>RON</th>
           </tr>
           <tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Fel Principal</th>
+            <th scope="row" className="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-gray-900">Fel Principal</th>
             <th className="text-green-700 text-xl">{ready ? result.dishes : <p>awaiting</p>}</th>
             <th>portii</th>
           </tr>
           <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Supe/Ciorbe</th>
+            <th scope="row" className="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-gray-900">Supe/Ciorbe</th>
             <th className="text-green-700 text-xl">{ready ? result.soup : <p>awaiting</p>}</th>
             <th>portii</th>
           </tr>
           <tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700 ">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Garnituri</th>
+            <th scope="row" className="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-gray-900">Garnituri</th>
             <th className="text-green-700 text-xl">{ready ? result.garnish : <p>awaiting</p>}</th>
             <th>portii</th>
           </tr>
           <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Salate</th>
+            <th scope="row" className="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-gray-900">Salate</th>
             <th className="text-green-700 text-xl">{ready ? result.salad : <p>awaiting</p>}</th>
             <th>portii</th>
           </tr>
           <tr className="bg-gray-50 border-b dark:bg-gray-800 dark:border-gray-700">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Desert</th>
+            <th scope="row" className="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-gray-900">Desert</th>
             <th className="text-green-700 text-xl">{ready ? result.desert : <p>awaiting</p>}</th>
             <th>portii</th>
           </tr>
           <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
-            <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-gray-700">Chifle</th>
+            <th scope="row" className="py-4 px-6 font-bold text-gray-900 whitespace-nowrap dark:text-gray-900">Chifle</th>
             <th className="text-green-700 text-xl">{ready ? result.bread : <p>awaiting</p>}</th>
             <th>bucati</th>
           </tr>
