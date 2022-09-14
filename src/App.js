@@ -61,6 +61,9 @@ function App() {
     const cx_modified = cx.split(' ').map((item) => { return parseInt(item) });
     const earnings_modified = earnings.split(' ').map((item) => { return parseInt(item) });
     const dish_modified = dish.split(' ').map((item) => { return parseInt(item) });
+
+
+
     const cx_sec_modified = cx_sec.split(' ').map((item) => { return parseInt(item) });
     const soup_modified = soup.split(' ').map((item) => { return parseInt(item) });
     const garnish_modified = garnish.split(' ').map((item) => { return parseInt(item) });
